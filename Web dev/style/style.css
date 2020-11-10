@@ -1,0 +1,44 @@
+body {
+   background-color: #BD6A33; 
+   /* #BD6A33, black, rgb(0,0,0)*/
+}
+
+table {
+}
+
+.topRow {
+    background-color: brown;
+}
+
+#four, #five, #six {
+    font-size: small;
+}
+
+button {
+    width: 500px;
+    height: 100px;
+    color: blue;
+    background-color: black;
+    border-radius: 20px;
+    border-color: white;
+    font-size: 50px;
+}
+
+#equal {
+    margin-left: 250px;
+}
+
+#clear {
+    margin-right: 250px;
+}
+
+#addition, #subraction, #multiplication, #division {
+    width: 375px;
+}
+
+#textBox {
+    width: 98%;
+    height: 80px;
+    margin: 10px;
+    font-size: 60px;
+}

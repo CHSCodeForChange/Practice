@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CFC Meeting</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script>
+            //all of your javascript here
+        </script>
+        <script src="javascript.js"></script>
+    </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><button class = "topRow" id = "one" onclick = "number(1)">1</button></td>
+                <td><button class = "topRow" id = "two" onclick = "number(2)">2</button></td>
+                <td><button class = "topRow" id = "three" onclick = "number(3)">3</button></td>
+            </tr>
+            <tr>
+                <td><button id = "four" onclick = "number(4)">4</button></td>
+                <td><button id = "five" onclick = "number(5)">5</button></td>
+                <td><button id = "six" onclick = "number(6)">6</button></td>
+            </tr>
+            <tr>
+                <td><button id = "seven" onclick = "number(7)">7</button></td>
+                <td><button id = "eight" onclick = "number(8)">8</button></td>
+                <td><button id = "nine" onclick = "number(9)">9</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id = "zero" onclick = "number(0)">0</button></td>
+                <td></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id = "addition" onclick="operand('+')">+</button></td>
+                <td><button id = "subraction" onclick="operand('-')">-</button></td>
+                <td><button id = "multiplication" onclick="operand('X')">X</button></td>
+                <td><button id = "division" onclick="operand('/')">/</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button id = "equal" onclick="solve()">=</button></td>
+                <td><button id = "reset" onclick="resettingEverything()">Clear</button></td>
+            </tr>
+        </table>
+        <input type = "text" id = "textBox" value = "">
+    </body>
+</html>
